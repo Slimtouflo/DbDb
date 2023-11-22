@@ -18,6 +18,8 @@ return new class extends Migration
             $table->integer('weight');
             $table->string('hair');
             $table->foreignId('race_id')->nullable()->constrained();
+            $table->text('story');
+            $table->text('image');
             $table->timestamps();
         });
     }

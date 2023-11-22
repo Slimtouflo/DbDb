@@ -12,11 +12,13 @@
         <div class="max-w-5xl mx-auto px-3">
             <div class="flex justify-between items-center">
                 <h1 class="text-2xl">
-                    <a href="/">Dragon ball Database</a>
+                    <a href="/">
+                        <img class="h-[100px]" src="/assets/dragonballLogo.png" alt="">
+                    </a>
                 </h1>
                 <nav class="space-x-3">
-                    <a class="hover:underline underline-offset-8" href="/races">Races</a>
-                    <a class="hover:underline underline-offset-8" href="/personnages">Personnages</a>
+                    <a class="hover:underline underline-offset-8 text-2xl" href="/races">Races</a>
+                    <a class="hover:underline underline-offset-8 text-2xl" href="/personnages">Personnages</a>
                 </nav>
             </div>
         </div>

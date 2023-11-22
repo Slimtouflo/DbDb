@@ -33,4 +33,11 @@ class RacesController extends Controller
 
         return redirect('/races');
     }
+
+    public function destroy($id)
+    {
+        $race = Races::FindOrFail($id);
+        Races::destroy($id);
+        return redirect('/races');
+    }
 }
