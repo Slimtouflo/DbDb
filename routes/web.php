@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RacesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/races', [RacesController::class, 'index']);
+Route::get('/races/creer', [RacesController::class, 'create']);
+Route::post('/races/creer', [RacesController::class, 'store']);

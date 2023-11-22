@@ -15,8 +15,8 @@
                     <a href="/">Dragon ball Database</a>
                 </h1>
                 <nav class="space-x-3">
-                    <a class="hover:underline underline-offset-8" href="/categories">Races</a>
-                    <a class="hover:underline underline-offset-8" href="/films">Personnages</a>
+                    <a class="hover:underline underline-offset-8" href="/races">Races</a>
+                    <a class="hover:underline underline-offset-8" href="/personnages">Personnages</a>
                 </nav>
             </div>
         </div>
